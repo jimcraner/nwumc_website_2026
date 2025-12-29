@@ -1,0 +1,12 @@
+/* Placeholder for future custom styles. */
+
+:root {
+  --brand-accent: #1f6feb;
+  --surface: #ffffff;
+  --ink: #1b1f24;
+}
+
+body {
+  background: var(--surface);
+  color: var(--ink);
+}

@@ -1,0 +1,37 @@
+</div>
+</main>
+<footer class="bg-black text-light py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <h5 class="text-uppercase fw-semibold">About</h5>
+        <p class="mb-2">Northwest United Methodist Church is a welcoming community rooted in worship, prayer, and service.</p>
+        <p class="mb-0">Our mission: to experience and share the love and power of Jesus Christ.</p>
+      </div>
+      <div class="col-12 col-md-4">
+        <h5 class="text-uppercase fw-semibold">Visit Us</h5>
+        <ul class="list-unstyled mb-2">
+          <li>3800 W. War Memorial Dr.</li>
+          <li>Peoria, IL 61615</li>
+          <li>Phone: 309-692-0421</li>
+        </ul>
+        <p class="mb-0">Sunday Worship: 10:30 a.m.</p>
+      </div>
+      <div class="col-12 col-md-4">
+        <h5 class="text-uppercase fw-semibold">Connect</h5>
+        <ul class="list-unstyled mb-0">
+          <li><a class="link-light text-decoration-none" href="/about">About Us</a></li>
+          <li><a class="link-light text-decoration-none" href="/news">Newsletter</a></li>
+          <li><a class="link-light text-decoration-none" href="/giving">Give Online</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="pt-4 text-center small text-secondary">
+      © 2025, Northwest United Methodist Church, Peoria, IL
+    </div>
+  </div>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

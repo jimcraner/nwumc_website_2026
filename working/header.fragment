@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Northwest United Methodist Church - Peoria, IL</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000;">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="/">Northwest UMC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="primaryNav">
+          <ul class="navbar-nav align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/worship">Worship</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ministries">Ministries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/giving">Giving</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/news">News</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+<main class="py-5 flex-grow-1">
+  <div class="container">
