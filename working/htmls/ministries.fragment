@@ -1,0 +1,45 @@
+  <h1 class="display-5 fw-bold mb-4">Our Ministries and Missions</h1>
+
+<section class="py-5 border-top">
+  <div class="container">
+    <h2 class="h4 fw-semibold mb-4">Overseas Missions</h2>
+    <p>We at Northwest are strongly committed to supporting those who have dedicated their lives to missionary work. Truly they are the hands and feet of Christ, honoring the Great Commission put forth by Jesus: <em>"Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you."</em> (Matthew 28:19-20)</p>
+    <p>We support a number of missions with monetary contributions and in prayer. In addition to our Faith Promise program of raising funds from congregation members, we also hold a number of fundraising events throughout the year to provide material support to these missions.</p>
+    
+    <h3 class="h6 fw-semibold mt-4 mb-3">Missions We Support</h3>
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <div class="h-100 p-3 border rounded-3">
+          <h4 class="h6 fw-semibold mb-2">Waves of Mercy</h4>
+          <p class="mb-1 small">Larry &amp; Diana Owen – Haiti</p>
+          <a href="http://mercysaves.org/" class="small" target="_blank" rel="noopener">mercysaves.org</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="h-100 p-3 border rounded-3">
+          <h4 class="h6 fw-semibold mb-2">Northwest Haiti Christian Mission</h4>
+          <p class="mb-1 small">Jody &amp; Jose Castillo – Haiti</p>
+          <a href="http://nwhcm.org/" class="small" target="_blank" rel="noopener">nwhcm.org</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="h-100 p-3 border rounded-3">
+          <h4 class="h6 fw-semibold mb-2">Child Restoration International</h4>
+          <p class="mb-1 small">Brenda Lewis – India</p>
+          <a href="http://www.childrestoration.com/" class="small" target="_blank" rel="noopener">childrestoration.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 border-top">
+  <div class="container">
+    <h2 class="h4 fw-semibold mb-4">Food Pantry</h2>
+    <p><em>Our Daily Bread</em> is our church's monthly food pantry ministry, serving residents of ZIP codes 61614 and 61615.</p>
+    <ul>
+      <li><strong>When:</strong> 4th Saturday of each month, 10:00am - 12:00pm. <a href="#">View Schedule</a></li>
+      <li><a href="../contact/">Contact us</a> to donate or volunteer!</li>
+    </ul>
+  </div>
+</section>

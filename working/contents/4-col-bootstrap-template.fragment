@@ -1,0 +1,28 @@
+<section class="py-5 border-top">
+  <div class="row g-4">
+    <div class="col-12 col-md-3">
+      <div class="h-100 p-3 border rounded-3">
+        <h4 class="h6 fw-semibold mb-2">Placeholder Item A</h4>
+        <p class="mb-0 small">Short placeholder copy that explains this item in the grid.</p>
+      </div>
+    </div>
+    <div class="col-12 col-md-3">
+      <div class="h-100 p-3 border rounded-3">
+        <h4 class="h6 fw-semibold mb-2">Placeholder Item B</h4>
+        <p class="mb-0 small">Short placeholder copy that explains this item in the grid.</p>
+      </div>
+    </div>
+    <div class="col-12 col-md-3">
+      <div class="h-100 p-3 border rounded-3">
+        <h4 class="h6 fw-semibold mb-2">Placeholder Item C</h4>
+        <p class="mb-0 small">Short placeholder copy that explains this item in the grid.</p>
+      </div>
+    </div>
+    <div class="col-12 col-md-3">
+      <div class="h-100 p-3 border rounded-3">
+        <h4 class="h6 fw-semibold mb-2">Placeholder Item D</h4>
+        <p class="mb-0 small">Short placeholder copy that explains this item in the grid.</p>
+      </div>
+    </div>
+  </div>
+</section>

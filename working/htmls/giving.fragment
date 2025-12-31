@@ -1,0 +1,101 @@
+<section class="">
+  <!-- Top: Image + CTA -->
+  <div class="row align-items-center g-4 mb-2">
+    <div class="col-12 col-lg-6">
+      <div class="rounded-3 overflow-hidden">
+        <img
+          src="../images/four_ways_to_give.jpg"
+          class="img-fluid w-100 h-100"
+          style="object-fit: contain;"
+          alt="Four ways to give"
+          loading="lazy"
+        />
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-6">
+      <div class="p-4 p-lg-5 bg-body-tertiary rounded-3 h-100">
+        <h2 class="h3 fw-bold mb-2">Four Ways to Give</h2>
+        <p class="mb-4">
+          Give online, by text, or through the Church Center mobile app. If you’re able, ACH bank transfer is the lowest-cost option.
+        </p>
+        <a
+          class="btn btn-primary btn-lg"
+          href="https://nwunitedmethodist.churchcenter.com/giving"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Visit our online giving page
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notes + Suggestions -->
+  <div class="row g-4">
+    <!-- Notes -->
+    <div class="col-12 col-lg-6">
+      <h3 class="h4 fw-bold mb-3">Notes</h3>
+
+      <div class="vstack gap-3">
+        <div class="p-4 bg-body-tertiary rounded-3 border">
+          <h4 class="h5 fw-bold mb-2">ACH bank transfers</h4>
+          <ul class="mb-0 ps-3">
+            <li><strong>Cost:</strong> $0.30 per transaction (lowest cost)</li>
+            <li>Available for <strong>web, text, and mobile app</strong> giving</li>
+            <li>
+              Timing: your bank will likely make the transaction within <strong>3–5 business days</strong> (maybe less),
+              but it can take up to <strong>10 business days</strong> to reach the church bank account
+            </li>
+          </ul>
+        </div>
+
+        <div class="p-4 rounded-3 border bg-white">
+          <h4 class="h5 fw-bold mb-2">One-time bank account verification</h4>
+          <p class="mb-2">There are two methods: <strong>instant</strong> and <strong>manual</strong>.</p>
+          <ul class="mb-0 ps-3">
+            <li>
+              If the instant method does not work, use the manual method which deposits <strong>two small transactions</strong>
+              (less than $1 each) into your bank account.
+            </li>
+            <li>
+              A few days later you will enter those amounts into a verification web page.
+              The small deposits are later removed.
+            </li>
+          </ul>
+        </div>
+
+        <div class="p-4 bg-body-tertiary rounded-3 border">
+          <h4 class="h5 fw-bold mb-2">Debit cards</h4>
+          <ul class="mb-0 ps-3">
+            <li><strong>Cost:</strong> 2.9% + $0.30 per transaction</li>
+          </ul>
+        </div>
+
+        <div class="p-4 rounded-3 border bg-white">
+          <h4 class="h5 fw-bold mb-2">Not supported</h4>
+          <ul class="mb-0 ps-3">
+            <li><strong>Credit cards</strong> are not supported (church decision)</li>
+            <li><strong>Apple Pay</strong> is not supported (can be pursued if there is enough interest)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Suggestions -->
+    <div class="col-12 col-lg-6">
+      <h3 class="h4 fw-bold mb-3">Suggestions</h3>
+
+      <div class="p-4 border rounded-3 h-100 bg-white">
+        <ul class="mb-0 ps-3 vstack gap-2">
+          <li>At the end of your first transaction, take the time to create an account to save your payment method</li>
+          <li>Use <strong>ACH bank transfers</strong> to lower the cost of giving</li>
+          <li>Set up a regular giving schedule</li>
+          <li>Try out <strong>Text giving</strong> – it is really easy once you have your account set up</li>
+          <li>Try out <strong>Mobile App giving</strong> – it is even easier than text giving</li>
+          <li>Search for <strong>“Church Center”</strong> through the Apple App Store or Google Play</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

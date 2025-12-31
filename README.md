@@ -12,10 +12,13 @@
 /README.md (this file)
 /working   (used for work in progress)
   /contents
-    {bunch of markdown files}
+    {bunch of markdown files of raw content}
   /header.fragment
   /footer.fragment
-  /lipsum.fragment
+  /lipsum.fragment (test content)
+  /htmls
+    /index.fragment (front page content)
+    {generated html files during work in progress}
   /raw.md //concatenated raw notes, just for human use
 /public   (output, copied in whole to web server root)
   /css
@@ -33,7 +36,37 @@
 
 Work in progress; subject to change.
 
-## Design Guides
+## Overall Publishing Process
+
+- Manually compose html fragments based on markdown contents files
+- Assemble full html pages by concatenating header + content + footer fragments
+- Each page is generated as index.html within a folder based on the fragment name, e.g.,
+
+```
+/public/index.html   (from /working/htmls/index.fragment)
+/public/about/index.html (from /working/htmls/about.fragment)
+/public/working/index.html (from /working/htmls/working.fragment)
+```
+
+- Dots in the filename BEFORE the ".fragment" become slashes in the output path, e.g.,
+
+```
+/working/htmls/community.food-pantry.fragment 
+  → /public/community/food-pantry/index.html
+```
+
+- all pages and folders in /public are removed and regenerated on each publish EXCEPT the frozen css, js, images, and files folders.
+
+- Header and footer fragments are reused across all pages.
+
+- the root folder will have a generate.php script to do the assembly.
+
+---
+
+
+
+
+## Internal Page Design Guides
 
 We have the basic page structure in place with header and footer fragments. The header includes navigation links, and the footer includes contact information and additional links.
 
@@ -41,7 +74,7 @@ Header ends by opening a main->div.container and footer starts by closing those 
 
 We have content guideline recommendations here to break up the monotony of internal pages:
 
-Got it — you want **repeatable “content blocks”** you can drop *inside*:
+These are  **repeatable “content blocks”** you can drop *inside*:
 
 ```html
 <main class="container">

@@ -20,6 +20,7 @@
       <div class="col-12 col-md-4">
         <h5 class="text-uppercase fw-semibold">Connect</h5>
         <ul class="list-unstyled mb-0">
+          <li><a class="link-light text-decoration-none" href="/contact">Contact Us</a></li>
           <li><a class="link-light text-decoration-none" href="/about">About Us</a></li>
           <li><a class="link-light text-decoration-none" href="/news">Newsletter</a></li>
           <li><a class="link-light text-decoration-none" href="/giving">Give Online</a></li>
