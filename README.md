@@ -20,7 +20,7 @@
     /index.fragment (front page content)
     {generated html files during work in progress}
   /raw.md //concatenated raw notes, just for human use
-/public   (output, copied in whole to web server root)
+/docs   (output, copied in whole to web server root)
   /css
   	bootstrap.min.css
   	custom.css
@@ -43,19 +43,19 @@ Work in progress; subject to change.
 - Each page is generated as index.html within a folder based on the fragment name, e.g.,
 
 ```
-/public/index.html   (from /working/htmls/index.fragment)
-/public/about/index.html (from /working/htmls/about.fragment)
-/public/working/index.html (from /working/htmls/working.fragment)
+/docs/index.html   (from /working/htmls/index.fragment)
+/docs/about/index.html (from /working/htmls/about.fragment)
+/docs/working/index.html (from /working/htmls/working.fragment)
 ```
 
 - Dots in the filename BEFORE the ".fragment" become slashes in the output path, e.g.,
 
 ```
 /working/htmls/community.food-pantry.fragment 
-  → /public/community/food-pantry/index.html
+  → /docs/community/food-pantry/index.html
 ```
 
-- all pages and folders in /public are removed and regenerated on each publish EXCEPT the frozen css, js, images, and files folders.
+- all pages and folders in /docs are removed and regenerated on each publish EXCEPT the frozen css, js, images, and files folders.
 
 - Header and footer fragments are reused across all pages.
 
