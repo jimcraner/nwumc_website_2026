@@ -23,7 +23,7 @@ foreach ([$headerFile, $footerFile] as $fragmentPath) {
 $header = file_get_contents($headerFile);
 $footer = file_get_contents($footerFile);
 
-$keepDirs = ['css', 'js', 'images', 'files'];
+$keepDirs = ['css', 'js', 'images', 'files', 'CNAME'];
 
 /**
  * Prefix asset paths (css/js/images/files) so nested pages resolve correctly.
@@ -73,7 +73,7 @@ foreach ($publicItems as $item) {
 // Ensure kept directories exist for consistent output structure.
 foreach ($keepDirs as $dir) {
     $target = $publicDir . '/' . $dir;
-    if (!is_dir($target)) {
+    if (!is_dir($target) && !file_exists($target)) {
         mkdir($target, 0777, true);
     }
 }
